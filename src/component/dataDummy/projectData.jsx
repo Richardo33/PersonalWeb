@@ -20,7 +20,7 @@ const projects = [
     tech: ['React', 'Material UI'],
     isGithubPrivate: false,
     githubUrl: 'https://github.com/Richardo33/window-world',
-    demoUrl: '',
+    demoUrl: 'https://window-world.netlify.app/',
   },
 ];
 
