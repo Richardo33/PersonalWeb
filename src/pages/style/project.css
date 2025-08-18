@@ -1,0 +1,60 @@
+/* Section spacing */
+#Project {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Card appearance */
+#Project .card {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  border: none;
+  border-radius: 8px;
+}
+
+#Project .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card image */
+#Project .card-img-top {
+  height: 250px;
+  object-fit: contain;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+/* Description */
+#Project .card-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Badge */
+#Project .badge {
+  font-size: 0.75rem;
+  padding: 0.5em 0.75em;
+}
+
+/* Links */
+#Project a {
+  transition: color 0.3s ease;
+}
+
+#Project a:hover {
+  color: #0d6efd;
+}
+
+#Project .text-muted {
+  font-size: 0.875rem;
+}

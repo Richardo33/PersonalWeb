@@ -1,0 +1,55 @@
+/* --- General Style for Tech Swiper --- */
+.techSwiper {
+  max-height: 140px;
+  padding: 1rem 0;
+}
+
+.techSwiper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 140px;
+  padding: 10px;
+  text-align: center;
+}
+
+.techSwiper .swiper-slide img.tech-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.techSwiper .swiper-slide img.tech-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.techSwiper .swiper-slide p {
+  margin-top: 0.5rem;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  overflow: hidden;
+}
+
+/* Responsive Swiper */
+@media (max-width: 576px) {
+  .techSwiper .swiper-slide img.tech-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .techSwiper .swiper-slide p {
+    height: 18px;
+    font-size: 13px;
+  }
+
+  .techSwiper .swiper-slide {
+    min-height: 100px;
+  }
+}

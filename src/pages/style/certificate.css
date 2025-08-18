@@ -1,0 +1,11 @@
+.certif-img {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.certif-img:hover {
+  transform: scale(1.02);
+}

@@ -1,0 +1,41 @@
+.profile-flip-container {
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+  margin: auto;
+}
+
+.profile-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.profile-flip-container:hover .profile-flip-inner {
+  transform: rotateY(180deg);
+}
+
+.profile-flip-front,
+.profile-flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile-flip-front {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-flip-back {
+  background-color: #343a40;
+  color: white;
+  transform: rotateY(180deg);
+}
