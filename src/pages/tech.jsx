@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import './style/technologies.css'
 
-import reactJs from '../assets/Icon/reactJs.png';
+import reactJs from '../assets/Icon/reactJS.png';
 import nodeJs from '../assets/Icon/nodeJS.png';
 import express from '../assets/Icon/ExpressJS.png';
 import mySQL from '../assets/Icon/mySQL.png';
