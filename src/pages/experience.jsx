@@ -1,5 +1,5 @@
-import React from 'react';
-import AIA from '../assets/icon/AIA.png';
+import React from "react";
+import AIA from "../assets/icon/aia.png";
 
 function Experience() {
   return (
@@ -14,7 +14,7 @@ function Experience() {
               src={AIA}
               alt="Company Logo"
               className="me-md-4 mb-3 mb-md-0"
-              style={{ width: '100px', height: '60px', objectFit: 'contain' }}
+              style={{ width: "100px", height: "60px", objectFit: "contain" }}
             />
             <div>
               <h5 className="mb-1 fw-bold">Database Developer</h5>
@@ -32,12 +32,30 @@ function Experience() {
               </p>
 
               <ul className="mb-2 ps-3">
-                <li>Transitioned into the role of Database Developer from Data Architect background</li>
-                <li>Designed and implemented scalable data architecture using PostgreSQL and Databricks</li>
-                <li>Managed data extraction, transformation, and loading (ETL) processes</li>
-                <li>Supported cross-functional teams with timely and reliable data solutions</li>
-                <li>Deployed UAT builds via Jenkins; prepared production releases using Jira</li>
-                <li>Applied Agile methodologies to ensure efficient and on-time project delivery</li>
+                <li>
+                  Transitioned into the role of Database Developer from Data
+                  Architect background
+                </li>
+                <li>
+                  Designed and implemented scalable data architecture using
+                  PostgreSQL and Databricks
+                </li>
+                <li>
+                  Managed data extraction, transformation, and loading (ETL)
+                  processes
+                </li>
+                <li>
+                  Supported cross-functional teams with timely and reliable data
+                  solutions
+                </li>
+                <li>
+                  Deployed UAT builds via Jenkins; prepared production releases
+                  using Jira
+                </li>
+                <li>
+                  Applied Agile methodologies to ensure efficient and on-time
+                  project delivery
+                </li>
               </ul>
 
               <div className="d-flex flex-wrap gap-2 mt-2">
@@ -64,7 +82,7 @@ function Experience() {
               src={AIA}
               alt="Company Logo"
               className="me-md-4 mb-3 mb-md-0"
-              style={{ width: '100px', height: '60px', objectFit: 'contain' }}
+              style={{ width: "100px", height: "60px", objectFit: "contain" }}
             />
             <div>
               <h5 className="mb-1 fw-bold">Junior Data Architect</h5>
@@ -82,11 +100,26 @@ function Experience() {
               </p>
 
               <ul className="mb-2 ps-3">
-                <li>Built end-to-end campaign data architecture using PostgreSQL and Databricks from design to production</li>
-                <li>Developed a new database system to support business stakeholder requirements</li>
-                <li>Contributed to internal app front-end features used across multiple departments</li>
-                <li>Monitored job processes via Autosys and escalated critical issues to management</li>
-                <li>Provided ongoing data support and troubleshooting for cross-functional teams</li>
+                <li>
+                  Built end-to-end campaign data architecture using PostgreSQL
+                  and Databricks from design to production
+                </li>
+                <li>
+                  Developed a new database system to support business
+                  stakeholder requirements
+                </li>
+                <li>
+                  Contributed to internal app front-end features used across
+                  multiple departments
+                </li>
+                <li>
+                  Monitored job processes via Autosys and escalated critical
+                  issues to management
+                </li>
+                <li>
+                  Provided ongoing data support and troubleshooting for
+                  cross-functional teams
+                </li>
               </ul>
 
               <div className="d-flex flex-wrap gap-2 mt-2">
