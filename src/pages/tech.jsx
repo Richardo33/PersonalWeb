@@ -1,42 +1,41 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import './style/technologies.css'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "./style/technologies.css";
 
-import reactJs from '../assets/Icon/reactJS.png';
-import nodeJs from '../assets/Icon/nodeJS.png';
-import express from '../assets/Icon/ExpressJS.png';
-import mySQL from '../assets/Icon/mySQL.png';
-import jira from '../assets/Icon/jira.png';
-import postgre from '../assets/Icon/postgreSQL.png';
-import mui from '../assets/Icon/materialUI.png';
-import bootstrap from '../assets/Icon/bootstrap.png';
-import js from '../assets/Icon/javascript.png';
-import git from '../assets/Icon/git.png';
-import databricks from '../assets/Icon/databricks.png';
-import jenkins from '../assets/Icon/jenkins.png';
-import typescript from '../assets/Icon/typescript.png';
-import prisma from '../assets/Icon/prisma.png';
-
+import reactJs from "../assets/icon/reactJS.png";
+import nodeJs from "../assets/icon/nodeJS.png";
+import express from "../assets/icon/ExpressJS.png";
+import mySQL from "../assets/icon/mySQL.png";
+import jira from "../assets/icon/jira.png";
+import postgre from "../assets/icon/postgreSQL.png";
+import mui from "../assets/icon/materialUI.png";
+import bootstrap from "../assets/icon/bootstrap.png";
+import js from "../assets/icon/javascript.png";
+import git from "../assets/icon/git.png";
+import databricks from "../assets/icon/databricks.png";
+import jenkins from "../assets/icon/jenkins.png";
+import typescript from "../assets/icon/typescript.png";
+import prisma from "../assets/icon/prisma.png";
 
 // Daftar teknologi
 const techList = [
-  { name: 'React JS', icon: reactJs },
-  { name: 'Node JS', icon: nodeJs },
-  { name: 'Express', icon: express },
-  { name: 'MySQL', icon: mySQL },
-  { name: 'Jira', icon: jira },
-  { name: 'PostgreSQL', icon: postgre },
-  { name: 'Material UI', icon: mui },
-  { name: 'Bootstrap', icon: bootstrap },
-  { name: 'JavaScript', icon: js },
-  { name: 'Git', icon: git },
-  { name: 'Databricks', icon: databricks },
-  { name: 'Jenkins', icon: jenkins },
-  { name: 'Typescript', icon: typescript },
-  { name: 'Prisma', icon: prisma },
+  { name: "React JS", icon: reactJs },
+  { name: "Node JS", icon: nodeJs },
+  { name: "Express", icon: express },
+  { name: "MySQL", icon: mySQL },
+  { name: "Jira", icon: jira },
+  { name: "PostgreSQL", icon: postgre },
+  { name: "Material UI", icon: mui },
+  { name: "Bootstrap", icon: bootstrap },
+  { name: "JavaScript", icon: js },
+  { name: "Git", icon: git },
+  { name: "Databricks", icon: databricks },
+  { name: "Jenkins", icon: jenkins },
+  { name: "Typescript", icon: typescript },
+  { name: "Prisma", icon: prisma },
 ];
 
 function Technologies() {
