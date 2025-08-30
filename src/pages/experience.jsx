@@ -1,5 +1,5 @@
 import React from "react";
-import Logoaia from "../assets/icon/logoaia.png";
+import Logoaia from "../assets/Icon/ikonn.png";
 
 function Experience() {
   return (
