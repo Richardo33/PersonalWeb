@@ -1,5 +1,5 @@
 import React from "react";
-import AIA from "../assets/icon/aia.png";
+import Logoaia from "../assets/icon/logoaia.png";
 
 function Experience() {
   return (
@@ -11,7 +11,7 @@ function Experience() {
         <div className="d-flex justify-content-between flex-wrap">
           <div className="d-flex flex-column flex-md-row">
             <img
-              src={AIA}
+              src={Logoaia}
               alt="Company Logo"
               className="me-md-4 mb-3 mb-md-0"
               style={{ width: "100px", height: "60px", objectFit: "contain" }}
@@ -79,7 +79,7 @@ function Experience() {
         <div className="d-flex justify-content-between flex-wrap">
           <div className="d-flex flex-column flex-md-row">
             <img
-              src={AIA}
+              src={Logoaia}
               alt="Company Logo"
               className="me-md-4 mb-3 mb-md-0"
               style={{ width: "100px", height: "60px", objectFit: "contain" }}
