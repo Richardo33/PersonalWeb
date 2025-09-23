@@ -1,5 +1,5 @@
-import { Navbar, Button, Container, Nav } from 'react-bootstrap';
-import Logo from '../assets/logo.png';
+import { Navbar, Button, Container, Nav } from "react-bootstrap";
+import Logo from "../assets/logo.png";
 
 function Navigate() {
   return (
@@ -11,10 +11,18 @@ function Navigate() {
 
         <div className="d-none d-lg-flex align-items-center gap-3 ms-auto">
           <Nav>
-            <Nav.Link href="#technologies" className="text-dark">TechStack</Nav.Link>
-            <Nav.Link href="#experiences" className="text-dark">Experiences</Nav.Link>
-            <Nav.Link href="#certificates" className="text-dark">Certificates</Nav.Link>
-            <Nav.Link href="#project" className="text-dark">Project</Nav.Link>
+            <Nav.Link href="#Technologies" className="text-dark">
+              TechStack
+            </Nav.Link>
+            <Nav.Link href="#Experiences" className="text-dark">
+              Experiences
+            </Nav.Link>
+            <Nav.Link href="#Certifications" className="text-dark">
+              Certificates
+            </Nav.Link>
+            <Nav.Link href="#Project" className="text-dark">
+              Project
+            </Nav.Link>
           </Nav>
 
           <Button

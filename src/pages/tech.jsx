@@ -19,6 +19,7 @@ import databricks from "../assets/icon/databricks.png";
 import jenkins from "../assets/icon/jenkins.png";
 import typescript from "../assets/icon/typescript.png";
 import prisma from "../assets/icon/prisma.png";
+import tailwind from "../assets/icon/tailwind.png";
 
 // Daftar teknologi
 const techList = [
@@ -36,6 +37,7 @@ const techList = [
   { name: "Jenkins", icon: jenkins },
   { name: "Typescript", icon: typescript },
   { name: "Prisma", icon: prisma },
+  { name: "Tailwind", icon: tailwind },
 ];
 
 function Technologies() {
