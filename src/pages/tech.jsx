@@ -20,6 +20,7 @@ import jenkins from "../assets/icon/jenkins.png";
 import typescript from "../assets/icon/typescript.png";
 import prisma from "../assets/icon/prisma.png";
 import tailwind from "../assets/icon/tailwind.png";
+import next from "../assets/icon/next.jpg";
 
 // Daftar teknologi
 const techList = [
@@ -38,6 +39,7 @@ const techList = [
   { name: "Typescript", icon: typescript },
   { name: "Prisma", icon: prisma },
   { name: "Tailwind", icon: tailwind },
+  { name: "Next", icon: next },
 ];
 
 function Technologies() {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/footer.css"; // wave css khusus
+import "./style/footer.css";
 
 function Footer() {
   return (
@@ -50,9 +50,12 @@ function Footer() {
         </svg>
       </div>
 
-      {/* Content */}
       <p className="mb-0">
-        Keep learning, keep building 🚀 | &copy; 2025 Alvin Rikardo
+        <span className="d-block d-md-inline">
+          Keep learning, keep building 🚀
+        </span>
+        <span className="d-none d-md-inline"> | </span>
+        <span className="d-block d-md-inline">&copy; 2025 Alvin Rikardo</span>
       </p>
 
       <div className="d-flex justify-content-center gap-4 pt-3">
