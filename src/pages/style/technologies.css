@@ -37,7 +37,6 @@
   overflow: hidden;
 }
 
-/* Responsive Swiper */
 @media (max-width: 576px) {
   .techSwiper .swiper-slide img.tech-icon {
     width: 40px;

@@ -6,7 +6,6 @@ function Experience() {
     <div className="container my-5 py-5 mb-5 pb-5" id="Experiences">
       <h2 className="my-4">Work Experiences :</h2>
 
-      {/* Card 1 */}
       <div className="card border-0 p-4 mb-4">
         <div className="d-flex justify-content-between flex-wrap">
           <div className="d-flex flex-column flex-md-row">
@@ -74,7 +73,6 @@ function Experience() {
         </div>
       </div>
 
-      {/* Card 2 */}
       <div className="card border-0 p-4 mb-4">
         <div className="d-flex justify-content-between flex-wrap">
           <div className="d-flex flex-column flex-md-row">

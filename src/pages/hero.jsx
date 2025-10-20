@@ -1,5 +1,5 @@
-import React from 'react';
-import ProfilePic from '../component/cardImage';
+import React from "react";
+import ProfilePic from "../component/cardImage";
 
 function hero() {
   return (
@@ -23,7 +23,8 @@ function hero() {
           </p>
 
           <p className="mb-2">
-            <i className="bi bi-geo-alt text-primary"></i> Serang, Banten, Indonesia
+            <i className="bi bi-geo-alt text-primary"></i> Tangerang, Banten,
+            Indonesia
           </p>
 
           <p className="mb-4 available-status d-flex align-items-center gap-2">

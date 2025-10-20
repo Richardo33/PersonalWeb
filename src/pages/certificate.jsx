@@ -1,20 +1,20 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './style/certificate.css'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./style/certificate.css";
 
-import cert1 from '../assets/certif/certificate-dumbways.jpg';
-import cert2 from '../assets/certif/dumbways.jpg';
-import cert3 from '../assets/certif/Dunia_Coding_React.jpg';
-import cert4 from '../assets/certif/Mini_Class.jpg';
-import cert5 from '../assets/certif/sql_advanced.jpg';
-import cert6 from '../assets/certif/sql_intermediate.jpg';
-import cert7 from '../assets/certif/waystalk1.jpg';
-import cert8 from '../assets/certif/waystalk2.jpg';
-import cert9 from '../assets/certif/Waystalk4.jpg';
-import cert10 from '../assets/certif/Waystalk6.jpg';
-import cert11 from '../assets/certif/Waystalk10.jpg';
-import cert12 from '../assets/certif/Efset.png';
+import cert1 from "../assets/certif/certificate-dumbways.jpg";
+import cert2 from "../assets/certif/dumbways.jpg";
+import cert3 from "../assets/certif/Dunia_Coding_React.jpg";
+import cert4 from "../assets/certif/Mini_Class.jpg";
+import cert5 from "../assets/certif/sql_advanced.jpg";
+import cert6 from "../assets/certif/sql_intermediate.jpg";
+import cert7 from "../assets/certif/waystalk1.jpg";
+import cert8 from "../assets/certif/waystalk2.jpg";
+import cert9 from "../assets/certif/Waystalk4.jpg";
+import cert10 from "../assets/certif/Waystalk6.jpg";
+import cert11 from "../assets/certif/Waystalk10.jpg";
+import cert12 from "../assets/certif/Efset.png";
 
 const slides = [
   [cert1, cert2],
@@ -41,27 +41,50 @@ function Certificate() {
             {slides.map(([left, right], index) => (
               <div
                 key={index}
-                className={`carousel-item ${index === 0 ? 'active' : ''}`}
+                className={`carousel-item ${index === 0 ? "active" : ""}`}
               >
                 <div className="row justify-content-center">
                   <div className="col-12 col-md-6 mb-3 mb-md-0">
-                    <img src={left} className="certif-img img-fluid" alt={`Cert ${index * 2 + 1}`} />
+                    <img
+                      src={left}
+                      className="certif-img img-fluid"
+                      alt={`Cert ${index * 2 + 1}`}
+                    />
                   </div>
                   <div className="col-12 col-md-6 d-none d-md-block">
-                    <img src={right} className="certif-img img-fluid" alt={`Cert ${index * 2 + 2}`} />
+                    <img
+                      src={right}
+                      className="certif-img img-fluid"
+                      alt={`Cert ${index * 2 + 2}`}
+                    />
                   </div>
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Controls */}
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
             <span className="visually-hidden">Previous</span>
           </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>

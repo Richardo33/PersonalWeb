@@ -22,7 +22,6 @@ import prisma from "../assets/icon/prisma.png";
 import tailwind from "../assets/icon/tailwind.png";
 import next from "../assets/icon/next.jpg";
 
-// Daftar teknologi
 const techList = [
   { name: "React JS", icon: reactJs },
   { name: "Node JS", icon: nodeJs },
