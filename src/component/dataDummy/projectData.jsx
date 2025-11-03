@@ -1,6 +1,6 @@
 import ProjectImage1 from "../../assets/dumImages/wayslink.png";
 import ProjectImage2 from "../../assets/dumImages/wow.png";
-import ProjectImage3 from "../../assets/dumImages/circle.png";
+import ProjectImage3 from "../../assets/dumImages/thread.png";
 import ProjectImage4 from "../../assets/dumImages/WorkGroup-Navigation.png";
 import ProjectImage5 from "../../assets/dumImages/WorldGuideforNerds.png";
 
