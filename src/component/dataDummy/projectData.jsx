@@ -3,6 +3,7 @@ import ProjectImage2 from "../../assets/dumImages/wow.png";
 import ProjectImage3 from "../../assets/dumImages/thread.png";
 import ProjectImage4 from "../../assets/dumImages/WorkGroup-Navigation.png";
 import ProjectImage5 from "../../assets/dumImages/WorldGuideforNerds.png";
+import ProjectImage6 from "../../assets/dumImages/nextstep.png";
 
 const projects = [
   {
@@ -53,6 +54,16 @@ const projects = [
     isGithubPrivate: false,
     githubUrl: "https://github.com/Richardo33/World-Guide-for-Nerds",
     demoUrl: "",
+  },
+  {
+    title: "NextStep-rms",
+    description:
+      "NextStep is an AI-driven recruitment platform automating screening-to-interview workflows, scoring candidates, centralizing jobs, and streamlining HR communications via email notifications.",
+    image: ProjectImage6,
+    tech: ["Next TS", "Tailwind", "Supabase", "n8n"],
+    isGithubPrivate: false,
+    githubUrl: "https://github.com/Richardo33/NextStep-rms",
+    demoUrl: "https://nexstep-b234a6wsa-alvin-rikardos-projects.vercel.app/",
   },
 ];
 

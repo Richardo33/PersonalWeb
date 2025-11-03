@@ -18,7 +18,7 @@ function Experience() {
             <div>
               <h5 className="mb-1 fw-bold">Database Developer</h5>
               <a
-                href="https://companywebsite.com"
+                href="https://www.linkedin.com/company/aia-singapore"
                 className="text-success text-decoration-none d-block mb-2"
                 target="_blank"
                 rel="noreferrer"
@@ -85,7 +85,7 @@ function Experience() {
             <div>
               <h5 className="mb-1 fw-bold">Junior Data Architect</h5>
               <a
-                href="https://companywebsite.com"
+                href="https://www.linkedin.com/company/aia-singapore"
                 className="text-success text-decoration-none d-block mb-2"
                 target="_blank"
                 rel="noreferrer"
