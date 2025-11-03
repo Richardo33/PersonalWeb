@@ -4,6 +4,7 @@ import ProjectImage3 from "../../assets/dumImages/thread.png";
 import ProjectImage4 from "../../assets/dumImages/WorkGroup-Navigation.png";
 import ProjectImage5 from "../../assets/dumImages/WorldGuideforNerds.png";
 import ProjectImage6 from "../../assets/dumImages/nextstep.png";
+import ProjectImage7 from "../../assets/dumImages/slotify.jpg";
 
 const projects = [
   {
@@ -43,17 +44,7 @@ const projects = [
     tech: ["Next TS", "Tailwind", "Supabase"],
     isGithubPrivate: false,
     githubUrl: "https://github.com/Richardo33/to-do-list-portfolio",
-    demoUrl: "",
-  },
-  {
-    title: "World Guide for Nerds",
-    description:
-      "An AI generator supporting text-based anime recommendations and image-based anime recognition, featuring drag-and-drop input and advanced image analysis for accurate identification and enhanced user interaction.",
-    image: ProjectImage5,
-    tech: ["Next TS", "Tailwind", "Supabase"],
-    isGithubPrivate: false,
-    githubUrl: "https://github.com/Richardo33/World-Guide-for-Nerds",
-    demoUrl: "",
+    demoUrl: "https://wgnavigation.richardoo.cyou/",
   },
   {
     title: "NextStep-rms",
@@ -64,6 +55,16 @@ const projects = [
     isGithubPrivate: false,
     githubUrl: "https://github.com/Richardo33/NextStep-rms",
     demoUrl: "https://nexstep-b234a6wsa-alvin-rikardos-projects.vercel.app/",
+  },
+  {
+    title: "Slotify",
+    description:
+      "Slotify is a booking platform that manages services, time slots, checks availability, prevents double bookings, and automates confirmations through webhooks.",
+    image: ProjectImage7,
+    tech: ["Next TS", "Tailwind", "Express", "Neon"],
+    isGithubPrivate: false,
+    githubUrl: "https://github.com/Richardo33/NextStep-rms",
+    demoUrl: "",
   },
 ];
 
