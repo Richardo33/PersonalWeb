@@ -56,7 +56,7 @@ function Technologies() {
           disableOnInteraction: false,
           reverseDirection: true,
         }}
-        slidesPerView={2}
+        slidesPerView={3}
         breakpoints={{
           576: { slidesPerView: 3 },
           768: { slidesPerView: 4 },
