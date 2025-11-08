@@ -34,7 +34,7 @@ const projects = [
     tech: ["React TS", "Tailwind", "express", "postgreSQL"],
     isGithubPrivate: false,
     githubUrl: "https://github.com/Richardo33/Circle-FE",
-    demoUrl: "https://circle-app.richardoo.cyou/",
+    demoUrl: "https://circle-fe-one.vercel.app/",
   },
   {
     title: "WorkGroup Navigation",
@@ -44,7 +44,7 @@ const projects = [
     tech: ["Next TS", "Tailwind", "Supabase"],
     isGithubPrivate: false,
     githubUrl: "https://github.com/Richardo33/to-do-list-portfolio",
-    demoUrl: "https://wgnavigation.richardoo.cyou/",
+    demoUrl: "https://work-group-navigation.vercel.app/",
   },
   {
     title: "NextStep-rms",
@@ -54,7 +54,7 @@ const projects = [
     tech: ["Next TS", "Tailwind", "Supabase", "n8n"],
     isGithubPrivate: false,
     githubUrl: "https://github.com/Richardo33/NextStep-rms",
-    demoUrl: "https://nextstep-rms.richardoo.cyou/",
+    demoUrl: "https://next-step-rms.vercel.app/",
   },
   {
     title: "Slotify",
